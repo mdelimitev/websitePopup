@@ -1,27 +1,3 @@
-
-:root {
-    --clr-bg-nonary: #FFFFFF;
-    --clr-bg-octonary: #FBFBFB;
-    --txt-clr-primary: #FBFBFB;
-    --txt-clr-secondary: #3A3D3F;
-    --txt-clr-tetriary: #3A3D3F;
-    --icon-clr-primary: #2D2926;
-    --ff-latin: 'Circular Std';
-    --ff-non-latin: 'Noto Sans JP, sans-serif';
-    --fs-titles-md: 20px;
-    --fs-titles-sl: 18px;
-    --fs-titles-xs: 18px;
-    --fs-titles-2xs: 18px;
-    --fs-titles-md: 20px;
-    --fs-titles-md: 20px;
-    --fs-titles-md: 20px;
-    --fs-titles-md: 20px;  
-  
-  
-  --padding: 10px;
-    --margin: 10px;
-}
-
 .QuestionOuter {
 border: 1px solid;
 border-color: #2D2926;
