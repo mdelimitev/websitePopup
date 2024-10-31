@@ -1,0 +1,217 @@
+
+:root {
+    --clr-bg-nonary: #FFFFFF;
+    --clr-bg-octonary: #FBFBFB;
+    --txt-clr-primary: #FBFBFB;
+    --txt-clr-secondary: #3A3D3F;
+    --txt-clr-tetriary: #3A3D3F;
+    --icon-clr-primary: #2D2926;
+    --ff-latin: 'Circular Std';
+    --ff-non-latin: 'Noto Sans JP, sans-serif';
+    --fs-titles-md: 20px;
+    --fs-titles-sl: 18px;
+    --fs-titles-xs: 18px;
+    --fs-titles-2xs: 18px;
+    --fs-titles-md: 20px;
+    --fs-titles-md: 20px;
+    --fs-titles-md: 20px;
+    --fs-titles-md: 20px;  
+  
+  
+  --padding: 10px;
+    --margin: 10px;
+}
+
+.QuestionOuter {
+border: 1px solid;
+border-color: #2D2926;
+margin-bottom: 10px;
+border-radius: 8px;
+margin-left: 10px;
+margin-right: 10px;
+padding-top: 3%;
+padding-left: 2%;
+margin-top: 20px;
+padding-bottom: 1vh!important;
+}
+
+
+#Footer{
+text-align: center;
+}
+
+.Skin #Buttons #NextButton, .Skin #Buttons #PreviousButton {
+    border-radius: 0.50rem!important;
+}
+
+.Skin label.SingleAnswer, .Skin label.MultipleAnswer {
+    background: rgba(0, 0, 0, 0)!important;
+}
+
+#ProgressBar{
+display: none;
+}
+
+.Skin .MC .TextEntryBox, .Skin .TE .ESTB .InputText, .Skin .TE .FORM .InputText, .Skin .TE .FollowUp .InputText, .Skin .TE .ML .InputText, .Skin .TE .PW .InputText, .Skin .TE .SL .InputText, .Skin .TE textarea, .Skin input.TextEntryBox, .Skin input[type=password], .Skin input[type=search], .Skin input[type=text], .Skin textarea {
+background-color: rgba(0, 0, 0, 0)!important;
+border-radius: 0.50rem!important;
+max-width: 90%;
+margin-left: 5%;
+}
+
+.Skin .QuestionText, .Skin .QuestionBody  {
+    color: #2D2926!important;
+    font-family: 'Noto Sans', sans-serif!important;
+}
+
+.Skin {
+    font-family: 'Noto Sans', sans-serif!important;
+}
+
+.JFEScope .Skin .q-matrix .table-cell,
+.Skin .Matrix .QuestionBody, .Skin .SBS .QuestionBody
+ {
+    font-size: 14px;
+}
+
+.Skin #LogoContainer {
+    background: #FEFEFE!important;
+	margin:0px!important;
+	padding-bottom:0px!important;
+}
+
+/*
+.Skin .MC .SAHR table td, .Skin .Matrix th{
+    width: fit-content;
+}
+*/
+
+.JFEScope .Skin .Matrix .q-matrix.mobile table td {
+	background-color: 	#ffffff;
+    text-align: center;
+}
+	
+@media (max-width: 480px) {
+    .Skin .Matrix .QuestionBody {
+        font-size: 9.6px;
+        font-size: 12px !important;
+    }
+}
+
+
+
+.q-matrix.mobile table>tbody>tr>td{
+	display: flex!important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 1em;
+}
+
+
+.JFEScope .Skin .q-matrix .single-answer.mobile
+{
+	margin:0;
+}
+
+.JFEScope .Skin .q-matrix .answered-indicator {
+padding-top: 2.5em;
+}
+
+* {
+cursor: pointer!important;
+}
+#NextButton{
+    text-decoration: none;
+}
+
+.Skin .DB .QuestionText {
+    text-align: center;
+    max-width: 100%;
+
+}
+
+.Skin #Buttons {
+text-align: center;
+}
+
+#navigation {
+    justify-content: center;
+    align-items: center;
+}
+
+#navigation #secondary-navigation {
+    margin-inline-end: inherit;
+}
+
+ #QID5,  #QID6,  #QID7 {
+    border: 0px!important;
+}
+
+#HeaderContainer{
+    display: none;
+}
+
+
+.QuestionExtreme  {
+    font-family: 'Noto Sans', sans-serif!important;
+    font-size: 14px;
+}
+
+
+th {
+vertical-align:top !important;
+}
+
+.Skin label.q-radio {
+    border: 2px solid #2D2926;
+}
+
+.Skin select, .Skin textarea {
+    background-color: #ffffff;
+    border: 0px
+}
+
+.Skin .LanguageSelectorContainer {
+text-align: left;
+}
+
+@media screen and (min-width: 590px) and (max-width: 708px){
+        #QID1 td:not(:first-child):not(:last-child) .LabelWrapper span span{
+        display: block !important;
+        padding: 8px 0!important;
+    }
+}
+
+@media screen and (min-width: 709px){
+        #QID1 td:not(:first-child) .LabelWrapper span span{
+        display: block !important;
+        padding: 8px 0!important;
+    }
+}
+ 
+@media screen and (max-width: 590px){
+        #QID1 .Skin .MC .MAHR table td, .Skin .MC .SAHR table td, #QID1 .Skin .NPS table td{
+        display:block;
+        margin: auto;
+    }
+}
+
+/*
+@media screen and  (max-width: 600px) {
+    ::-webkit-scrollbar {
+  width: 5px!important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+}
+*/
