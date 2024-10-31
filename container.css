@@ -1,0 +1,227 @@
+/* Use classes below to override responsive dialog styles.
+Attention: The following code is provided as-is 
+and requires programming knowledge to implement. 
+Qualtrics Support does not offer assistance or consultation on custom coding. 
+You can always try asking our community of dedicated users instead.
+For help with custom code go to https://community.qualtrics.com/custom-code-12 */
+
+/* Style shadowbox that appears behind dialog. NOTE: Changes to this shadowbox will not be reflected in the previewer */
+.QSIWebResponsiveShadowBox {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  /* z-index: 1; */
+  /* margin-top: 10px !important; */
+  /* white-space: normal !important; */
+}
+
+/* Style the container's fade */
+.QSIWebResponsive-creative-container-fade {
+  /* */
+}
+
+/* Style the main container of the web responsive dialog */
+.QSIWebResponsiveDialog-Layout1-SI_51GjOjQ4qTcZ2ku_content {
+  /* line-height: 1em !important; */
+  /* margin: 0 0.5em 0 0 !important; */
+  /* width: auto !important; */
+  /* font-size: inherit !important; */
+  /* font-weight: normal !important; */
+  /* font-style: normal !important; */
+  /* display: inline !important; */
+  /* color: #000000 !important; */
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-height: 90vh; /* Ensure the popup does not exceed the viewport height */
+  overflow: hidden; /* Ensure the popup does not have its own scrollbar */
+}
+
+/* Style the logo container section of the creative */
+.QSIWebResponsiveDialog-Layout1-SI_51GjOjQ4qTcZ2ku_logo-container {
+  /* display: inline-block !important; */
+  /* margin-right: 5px !important; */
+}
+
+/* Style the text container section of the creative. This includes the header section and description section */
+.QSIWebResponsiveDialog-Layout1-SI_51GjOjQ4qTcZ2ku_text-container {
+  /* display: inline-block !important; */
+}
+
+/* Style the headline section of the creative */
+.QSIWebResponsiveDialog-Layout1-SI_51GjOjQ4qTcZ2ku_headline {
+  /* font: inherit !important; */
+}
+
+/* Style the description section of the creative */
+.QSIWebResponsiveDialog-Layout1-SI_51GjOjQ4qTcZ2ku_description {
+  /* font: inherit !important; */
+  /* background: transparent !important; */
+  /* border: none !important; */
+  /* padding: 0 !important; */
+  /* vertical-align: middle !important; */
+  /* margin: 0 0.4em 0 0 !important; */
+  /* cursor: pointer !important; */
+}
+
+/* Style the container that houses the button(s) */
+.QSIWebResponsiveDialog-Layout1-SI_51GjOjQ4qTcZ2ku_button-container {
+  /* display: inline-block !important; */
+}
+
+/* Style the first button in the dialog */
+.QSIWebResponsiveDialog-Layout1-SI_51GjOjQ4qTcZ2ku_button-1 {
+  /* font: inherit !important; */
+  /* padding: .4em .4em !important; */
+  /* min-width: 3em !important; */
+  /* line-height: 1em !important; */
+  /* border-radius: 4px !important; */
+  /* border-width: 1px !important; */
+  /* border-style: solid !important; */
+  /* cursor: pointer !important; */
+  /* background: #FFF !important; */
+  /* color: #000 !important; */
+  /* border-color: #000 !important; */
+}
+
+/* Style the second button in the dialog */
+.QSIWebResponsiveDialog-Layout1-SI_51GjOjQ4qTcZ2ku_button-2 {
+  /* font: inherit !important; */
+  /* padding: .4em .4em !important; */
+  /* min-width: 3em !important; */
+  /* line-height: 1em !important; */
+  /* border-radius: 4px !important; */
+  /* border-width: 1px !important; */
+  /* border-style: solid !important; */
+  /* cursor: pointer !important; */
+  /* background: #FFF !important; */
+  /* color: #000 !important; */
+  /* border-color: #000 !important; */
+}
+
+/* Style the button that closes the dialog */
+.QSIWebResponsiveDialog-Layout1-SI_51GjOjQ4qTcZ2ku_close-btn {
+  /* display: inline-block !important; */
+  /* margin-right: 5px !important; */
+}
+
+.QSIWebResponsive .QSIWebResponsiveDialog-Layout1-SI_87fa5sputpbLzTM_border-radius-very-rounded {
+    border-radius: 8px !important;
+}   
+
+    .QSIWebResponsive .QSIWebResponsiveDialog-Layout1-SI_87fa5sputpbLzTM_close-btn-container-medium {
+    margin-top: 10px!important;
+    margin-bottom: 10px!important;
+    margin-left: 10px!important;
+    margin-right: 10px!important;
+}
+
+
+/* Media query for desktop screens with a minimum width of 1280px */
+/* Adelina media query */
+@media screen and (max-width: 480px) {
+        
+    .QSIWebResponsive .QSIWebResponsiveDialog-Layout1-SI_87fa5sputpbLzTM_content-medium {
+        width: 100% !important;
+		max-width:100% !important;
+	    padding: 20px!important;
+	    height: 100%;
+        max-height: 100% !important;
+	    
+      
+    }
+    .QSIWebResponsive .QSIWebResponsiveDialog-Layout1-SI_87fa5sputpbLzTM_embedded-target-container {
+        width: 100% !important;
+		max-width:100% !important;
+		height: 87vh !important;
+        max-height: 87vh !important;
+    }
+    
+    .QSIWebResponsive iframe {
+    width: 100%!important;
+    height: 100%!important;
+    }
+    
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 600px) {
+    
+    .QSIWebResponsive .QSIWebResponsiveDialog-Layout1-SI_87fa5sputpbLzTM_content-medium {
+        width: 90% !important;
+		max-width:90% !important;
+  		padding: 20px!important;
+  		        box-shadow: 0px 10px 16px 0px rgba(0, 0, 0, 0.0581)!important;
+    }
+    .QSIWebResponsive .QSIWebResponsiveDialog-Layout1-SI_87fa5sputpbLzTM_embedded-target-container {
+        width: 100%  !important;
+		max-width:100%  !important;
+        box-shadow: 0px 10px 16px 0px rgba(0, 0, 0, 0.0581)!important;
+    }
+    
+    .QSIWebResponsive iframe {
+        width: 99%!important;
+        height: 99%!important;
+    }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 960px) {
+    
+    .QSIWebResponsive .QSIWebResponsiveDialog-Layout1-SI_87fa5sputpbLzTM_content-medium {
+        width: 78% !important;
+		max-width:78% !important;
+        padding-top: 32px!important;
+        padding-bottom: 32px !important;
+        padding-left: 64px!important;
+        padding-right: 64px!important;
+        box-shadow: 0px 10px 16px 0px rgba(0, 0, 0, 0.0581)!important;
+    }
+    .QSIWebResponsive .QSIWebResponsiveDialog-Layout1-SI_87fa5sputpbLzTM_embedded-target-container {
+        width: 100% !important;
+		max-width:100% !important;
+        box-shadow: 0px 10px 16px 0px rgba(0, 0, 0, 0.0581)!important;
+    }
+    
+    .QSIWebResponsive iframe {
+        width: 99%!important;
+        height: 99%!important;
+    }
+    
+    .QSIWebResponsive .QSIWebResponsiveDialog-Layout1-SI_87fa5sputpbLzTM_close-btn-container-medium {
+        margin-bottom: 4px!important;
+    }
+}
+
+
+
+@media screen and (min-width: 960px){
+    
+    .QSIWebResponsive .QSIWebResponsiveDialog-Layout1-SI_87fa5sputpbLzTM_content-medium {
+        width: 880px !important;
+        max-width: 880px !important;
+        padding-left: 64px!important;
+        padding-right: 64px!important;
+        padding-top: 32px!important;
+        padding-bottom: 32px !important;
+        box-shadow: 0px 10px 16px 0px rgba(0, 0, 0, 0.0581)!important;
+
+    }
+    .QSIWebResponsive .QSIWebResponsiveDialog-Layout1-SI_87fa5sputpbLzTM_embedded-target-container {
+        width: 752px !important;
+        max-width: 752px !important;
+        box-shadow: 0px 10px 16px 0px rgba(0, 0, 0, 0.0581)!important;
+
+    }
+    
+    .QSIWebResponsive iframe {
+        width: 98%!important;
+        height: 95%!important;
+    }
+    
+    .QSIWebResponsive .QSIWebResponsiveDialog-Layout1-SI_87fa5sputpbLzTM_close-btn-container-medium {
+        margin-bottom: 4px!important;
+    }
+}
+
+
+    
